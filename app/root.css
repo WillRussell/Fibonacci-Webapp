@@ -1,0 +1,27 @@
+body {
+    background: #eee
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+md-content {
+    background: none !important;
+}
+
+.md-whiteframe-z2 {
+    background: white !important;
+}
+
+.results {
+    margin-top: 24px !important;
+}
+
+.count {
+    font-size: .85em;
+    font-style: italic;
+    color: rgba(0, 0, 0, .65);
+    margin: 0px 16px;
+}

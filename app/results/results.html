@@ -1,0 +1,11 @@
+<h3>Fibonacci Selection: {{vm.selection}}</h3>
+
+<md-progress-linear ng-hide="vm.dataLoaded" md-mode="indeterminate"></md-progress-linear>
+
+<ul ng-show="vm.dataLoaded" ng-repeat="item in vm.dataset track by $index">
+	<li>
+		<span class="count">F<sub>{{$index}}</sub></span>
+		<span>{{::item}}</span>
+	</li>
+	<md-divider></md-divider>
+</ul>
